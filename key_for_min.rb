@@ -10,8 +10,9 @@ min_value = 100
 	     if value <= min_value
         min_value = value
         min_key = key
-        min_key
+        
         end
+        min_key
     end
   end 
 end
