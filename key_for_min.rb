@@ -7,14 +7,13 @@ min_value = 100
   if name_hash == {}
 	  return nil
 	 else 
-	   min_key = key
+	   
 	   name_hash.each do |key, value|
 	     if value <= min_value
         min_value = value
         min_key = key
-        min_key
         end
-        
+        min_key
     end
   end 
 end
