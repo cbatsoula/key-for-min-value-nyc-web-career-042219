@@ -6,7 +6,7 @@ min_value = 100
   if name_hash == {}
 	  return nil
 	 else 
-	   name_hash.collect do |key, value|
+	   name_hash.each do |key, value|
 	     if value <= min_value
         min_value = value
         min_key = key
